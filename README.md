@@ -23,3 +23,5 @@
 
 GET 127.0.0.1:8000/api/orders - Получение списка заказов 
 GET 127.0.0.1:8000/api/orders/№ - Получение заказа, где № - номер заказа
+
+Ссылка на google таблицу - https://docs.google.com/spreadsheets/d/15t7BPWRg4J4VDU9Oz5YKuIeNQ1gBLNueZ2W6mefJvFw/edit?usp=sharing
