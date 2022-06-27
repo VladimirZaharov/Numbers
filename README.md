@@ -19,3 +19,6 @@
                 API_KEY - ключ api в google 
                 TELEGRAM_TOKEN - токен бота в телеграмме
   3. docker-compose up --build   
+
+GET 127.0.0.1:8000/api/orders - Получение списка заказов 
+GET 127.0.0.1:8000/api/orders/№ - Получение заказа, где № - номер заказа
