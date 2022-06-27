@@ -11,6 +11,9 @@ from orders.models import ExchangeRate
 
 class Command(BaseCommand):
     def handle(self, *args, **options):
+        '''
+        Сохранение курса USD в базу данных
+        '''
         while True:
             exchange_rate = self.get_exchange_rate()
             try:
@@ -28,6 +31,9 @@ class Command(BaseCommand):
             sleep(3600)
 
     def get_exchange_rate(self):
+        '''
+        Получение курса USD на сайте ЦБ РФ
+        '''
         headers = {'User-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
         today = datetime.datetime.today()
         ago = datetime.timedelta(days=4)

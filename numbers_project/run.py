@@ -2,6 +2,9 @@ import subprocess
 
 
 def main():
+    '''
+    Базовый запуск проекта
+    '''
     process = []
     process.append(subprocess.Popen('python manage.py runserver', shell=True))
     process.append(subprocess.Popen('python manage.py run_task', shell=True))

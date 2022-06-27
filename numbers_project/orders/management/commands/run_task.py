@@ -10,6 +10,9 @@ from orders.models import Order, ExchangeRate
 
 class Command(BaseCommand):
     def handle(self, *args, **options):
+        '''
+        Получение таблицы из Google Sheets с сохранением в базу данных
+        '''
         while True:
             sleep(10)
             my_sheet = requests.get(f'https://sheets.googleapis.com/v4/spreadsheets/{SPREAD_SHEET_ID}?key={API_KEY}')

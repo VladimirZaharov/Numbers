@@ -96,7 +96,8 @@ else:
             'NAME': 'numbers',
             'USER': 'root',
             'PASSWORD': 'janveubowre89158',
-            'HOST': 'localhost',
+            'HOST': 'db',
+            'PORT': '5432',
         }
     }
 

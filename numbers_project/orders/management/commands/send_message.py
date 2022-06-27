@@ -10,6 +10,9 @@ from orders.models import Order
 
 
 class Command(BaseCommand):
+    '''
+    Отправка в Телеграмм количества и номеров просроченных заказов
+    '''
     def handle(self, *args, **options):
         bot = telebot.TeleBot(TELEGRAM_TOKEN)
 
