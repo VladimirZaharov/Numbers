@@ -18,7 +18,7 @@ class Command(BaseCommand):
             self.expired_orders = self.expired_orders()
             bot.send_message(
                 message.chat.id,
-                f'Здравствуйте, у вас {len(self.expired_orders)} просроченых заказов'
+                f'Здравствуйте, у вас {len(self.expired_orders)} просроченых заказов {self.unpack_orders()}'
             )
             while True:
                 sleep(86400)

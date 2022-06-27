@@ -6,7 +6,6 @@ from time import sleep
 import requests
 from django.core.management import BaseCommand
 
-import orders
 from orders.models import ExchangeRate
 
 

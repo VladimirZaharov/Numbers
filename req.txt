@@ -1,0 +1,9 @@
+beautifulsoup4
+Django
+django-environ
+django-filter
+djangorestframework
+lxml
+Markdown
+pyTelegramBotAPI
+requests

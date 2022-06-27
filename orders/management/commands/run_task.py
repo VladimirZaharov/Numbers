@@ -1,5 +1,4 @@
 import datetime
-from pprint import pprint
 from time import sleep
 import json
 import requests
