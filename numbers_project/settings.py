@@ -147,3 +147,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 SPREAD_SHEET_ID = env('SPREAD_SHEET_ID')
 API_KEY = env('API_KEY')
+
+TELEGRAM_TOKEN = env('TELEGRAM_TOKEN')
